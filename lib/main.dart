@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 // Screens
 import 'package:poke_api/screens/home.dart';
+import 'package:poke_api/screens/list.dart';
 
 void main() {
 	runApp(const MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
 				colorSchemeSeed: Colors.deepPurple,
 				appBarTheme: const AppBarTheme(elevation: 20)
 			),
-			home: const HomeScreen(),
+			home: const ListScreen(),
 		);
 	}
 }
